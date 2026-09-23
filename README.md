@@ -40,7 +40,7 @@ Run `terraform output` to get the URLs and SSH command for the instance.
 
 ### 3. Verify the JFrog secret in Vault
 
-In the Vault UI, browse the `secrets/` KV engine to `creds/jfrog` — it should show `username=admin`, `password=Devops1234` (or run `vault kv get secrets/creds/jfrog`).
+In the Vault UI, browse the `secrets/` KV engine to `creds/jfrog` — it should show `username=admin`, `password=DevOps1234` (or run `vault kv get secrets/creds/jfrog`).
 
 ### 4. SonarQube (Optional: Skip this if you are using SonarCloud )
 
